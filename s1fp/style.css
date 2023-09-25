@@ -7,6 +7,8 @@ body {
     height:50px;
     background: white;
     border-radius: 50%;
+    position: absolute;
+top: 150px; left: 40px;
 }
 
 .petal1 {
@@ -15,6 +17,8 @@ body {
     background: white;
     border-radius: 50%;
     transform: rotate(60deg);
+    position: absolute;
+top: 150px; left: 40px;
 }
 
 .petal2 {
@@ -23,5 +27,7 @@ body {
     background: white;
     border-radius: 50%;
     transform: rotate(120deg);
+    position: absolute;
+top: 150px; left: 40px;
 }
 
