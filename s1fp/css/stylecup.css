@@ -1,9 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
-    background:rgb(95, 195, 184);
-  }
-  
+  background:#F88379;
+}
   .cup {
     position: absolute;
     top: 50%;
@@ -33,6 +30,46 @@ body {
     top: 30px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: 38px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(-45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(45deg);
   }
   
 @keyframes filling {
@@ -106,6 +143,8 @@ body {
               inset 0 0 0 8px #ffd166, 
               inset 0 0 0 12px #06d6a0,
               inset 0 0 0 16px violet;
-  background: black;
-  color: #fff;
+  background: white;
+  color: black;
 }
+
+
