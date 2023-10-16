@@ -1,0 +1,208 @@
+body{
+    position: relative;
+    background-color: #A7ADBA;
+    overflow: hidden;
+  }
+body{
+    background-image: linear-gradient(45deg, #001d3a 25%, transparent 25%), linear-gradient(-45deg, #1d0303 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #040d20 75%), linear-gradient(-45deg, transparent 75%, #0c1d2a 75%);
+    background-size: 18px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  }
+  
+p{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Urbanist', sans-serif;
+}
+
+@media (min-width:200px)  { 
+    #tablecenter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #tabledesign {
+        background-color: coral;
+        color: white;
+        background-color: black;
+        width: 5vw;
+        height: 5vh;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0s 180s;
+    }
+    
+    #tabledesign img {
+        opacity:0;
+    }
+    
+    #tabledesign {
+        background: linear-gradient(-45deg, #00ff33, #ff0000, #ffffff, #000000);
+        background-size: 150% 150%;
+        animation: gradient 5s ease infinite;
+        height: 10vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    #tabledesign img {
+        opacity:0;
+        transition:0s 180s;
+    }
+    
+    #tabledesign:hover {
+        background: blue;
+        width: 5vw;
+        height: 5vh;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0;
+    }
+    
+    #tabledesign:hover img {
+        opacity:1;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0s;
+    }
+}
+
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    #tablecenter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #tabledesign {
+        background-color: coral;
+        color: white;
+        background-color: black;
+        width: 10vw;
+        height: 10vh;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0s 180s;
+    }
+    
+    #tabledesign img {
+        opacity:0;
+    }
+    
+    #tabledesign {
+        background: linear-gradient(-45deg, #00ff33, #ff0000, #ffffff, #000000);
+        background-size: 150% 150%;
+        animation: gradient 5s ease infinite;
+        height: 15vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    #tabledesign img {
+        opacity:0;
+        transition:0s 180s;
+    }
+    
+    #tabledesign:hover {
+        background: blue;
+        width: 10vw;
+        height: 10vh;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0;
+    }
+    
+    #tabledesign:hover img {
+        opacity:1;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0s;
+    }
+}
+
+
+@media (min-width:1025px) { 
+    #tablecenter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #tabledesign {
+        background-color: coral;
+        color: white;
+        background-color: black;
+        width: 15vw;
+        height: 15vh;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0s 180s;
+    }
+    
+    #tabledesign img {
+        opacity:0;
+    }
+    
+    #tabledesign {
+        background: linear-gradient(-45deg, #00ff33, #ff0000, #ffffff, #000000);
+        background-size: 150% 150%;
+        animation: gradient 5s ease infinite;
+        height: 20vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    #tabledesign img {
+        opacity:0;
+        transition:0s 180s;
+    }
+    
+    #tabledesign:hover {
+        background: blue;
+        width: 15vw;
+        height: 15vh;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0;
+    }
+    
+    #tabledesign:hover img {
+        opacity:1;
+        vertical-align:middle; 
+        text-align:center;
+        transition:0s;
+    }
+     
+}
+
+
+
