@@ -1,13 +1,8 @@
 body{
     position: relative;
-    background-color: #A7ADBA;
-    overflow: hidden;
+    background-image: url('mushroom.png');
   }
-body{
-    background-image: linear-gradient(45deg, #001d3a 25%, transparent 25%), linear-gradient(-45deg, #1d0303 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #040d20 75%), linear-gradient(-45deg, transparent 75%, #0c1d2a 75%);
-    background-size: 18px 20px;
-    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-  }
+
   
 p{
     text-align: center;
@@ -16,6 +11,13 @@ p{
 }
 
 @media (min-width:200px)  { 
+    .command {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4vh;
+        color:white;
+        
+    }
     #tablecenter {
         margin-left: auto;
         margin-right: auto;
@@ -79,6 +81,13 @@ p{
 
 @media (min-width:600px)  { 
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    .command {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 7vh;
+        color:white;
+        
+    }
     #tablecenter {
         margin-left: auto;
         margin-right: auto;
@@ -142,6 +151,13 @@ p{
 
 
 @media (min-width:1025px) { 
+    .command {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 10vh;
+        color:white;
+        
+    }
     #tablecenter {
         margin-left: auto;
         margin-right: auto;
