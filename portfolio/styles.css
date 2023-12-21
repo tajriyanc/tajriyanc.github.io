@@ -1,0 +1,263 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ff6f61; /* Coral Pink background color */
+}
+
+/* Add this at the end of styles.css */
+.horizontal-navbar {
+    margin-top: 20px;
+}
+
+.horizontal-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #fff; /* White background color for the navbar */
+}
+
+.horizontal-navbar li {
+    margin-right: 20px;
+}
+
+.horizontal-navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.horizontal-navbar a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    padding: 2px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+.flower {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+}
+
+.flower:hover {
+    transition: transform 1.5s ease;
+    transform: rotateY(35deg); 
+}
+  
+.flower1 {
+    position: relative;
+    margin: 0 auto;
+    top: 200px;
+    left: 200px;
+}
+
+.flower1:hover {
+    transition: transform 1.5s ease;
+    transform: rotateY(35deg); 
+}
+  
+
+.flower2 {
+    position: relative;
+    top: 400px;
+    left: 400px;
+}
+
+.flower2:hover {
+    transition: transform 1.5s ease;
+    transform: rotateY(35deg); 
+}
+  
+
+.icon {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+}
+
+
+.petal {
+    width: 300px;
+    height: 50px;
+    background: rgb(252, 245, 164);
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.petal1 {
+    width: 300px;
+    height: 50px;
+    background: rgb(252, 245, 164);
+    border-radius: 50%;
+    transform: rotate(60deg);
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.petal2 {
+    width: 300px;
+    height: 50px;
+    background: rgb(252, 245, 164);
+    border-radius: 50%;
+    transform: rotate(120deg);
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 152px;
+    left: 162px;
+    border-radius: 50%;
+    background: #F4BB44;
+}
+
+
+/* Add this at the end of styles.css */
+.horizontal-navbar {
+    margin-top: 20px;
+}
+
+.horizontal-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.horizontal-navbar li {
+    margin-right: 20px;
+}
+
+.horizontal-navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.horizontal-navbar a:hover {
+    background-color: #eee;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add this at the end of styles.css */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.pink-table {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+    border-radius: 50px;
+    text-align:center;
+}
+
+table, th, td {
+    border-radius: 50px;
+    text-align:center;
+}
+
+th, td {
+    padding: 20px;
+    font-size: 1.2em;
+    color: #000000;
+    border-radius: 50px;
+    text-align:center;
+}
+
+tr:nth-child(even) {
+    background-color: #f5eff2; 
+    border-radius: 50px;
+    text-align:center;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7d8d8; 
+    border-radius: 50px;
+    text-align:center;
+}
+
+.vertical-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ff6f61; /* Coral Pink background color */
+    padding: 10px;
+    border-bottom-right-radius: 8px;
+}
+
+.vertical-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-navigation li {
+    margin-bottom: 10px;
+}
+
+.vertical-navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    display: block;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.content {
+    margin-left: 80px; /* Adjust margin to accommodate the vertical navigation */
+}
